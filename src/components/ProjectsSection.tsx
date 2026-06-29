@@ -32,6 +32,7 @@ const projects = [
     subtitle: "Computer Vision",
     image: "/images/face_recognition_8k_1782472938489.png",
     tech: ["TensorFlow", "Deep Learning", "CV"],
+    githubLink: "https://github.com/harshan490/Face-Emotion-Reader",
   },
   {
     id: 5,
@@ -54,7 +55,9 @@ export default function ProjectsSection() {
             </span>
           </h2>
           <div className="hidden md:block">
-            <MagneticButton>View GitHub</MagneticButton>
+            <a href="https://github.com/harshan490" target="_blank" rel="noopener noreferrer">
+              <MagneticButton>View GitHub</MagneticButton>
+            </a>
           </div>
         </div>
 
@@ -102,9 +105,11 @@ export default function ProjectsSection() {
 
                 {/* Hover Reveal Links */}
                 <div className="mt-2 overflow-hidden max-h-0 group-hover:max-h-20 transition-all duration-500 flex gap-6">
-                  <button className="flex items-center gap-2 text-white hover:text-brand-papaya transition-colors uppercase tracking-widest text-sm font-semibold">
-                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.2c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path><path d="M9 18c-4.51 2-5-2-7-2"></path></svg> Source Code
-                  </button>
+                  {item.githubLink && (
+                    <a href={item.githubLink} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-white hover:text-brand-papaya transition-colors uppercase tracking-widest text-sm font-semibold">
+                      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg> Source Code
+                    </a>
+                  )}
                   <button className="flex items-center gap-2 text-white hover:text-brand-papaya transition-colors uppercase tracking-widest text-sm font-semibold">
                     <ExternalLink size={18} /> Live Demo
                   </button>

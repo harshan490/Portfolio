@@ -63,10 +63,12 @@ export default function Footer() {
                 type="email" 
                 placeholder="Email Address" 
                 className="bg-white/5 border border-white/10 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-brand-papaya transition-colors"
+                suppressHydrationWarning
               />
               <button 
                 type="button"
                 className="bg-brand-papaya text-black font-bold uppercase tracking-widest text-sm py-3 rounded-lg hover:bg-white transition-colors"
+                suppressHydrationWarning
               >
                 Subscribe
               </button>

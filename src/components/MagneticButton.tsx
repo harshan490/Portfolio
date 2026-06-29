@@ -29,6 +29,7 @@ export default function MagneticButton({
 
   return (
     <motion.button
+      suppressHydrationWarning
       ref={ref}
       onMouseMove={handleMouse}
       onMouseLeave={reset}

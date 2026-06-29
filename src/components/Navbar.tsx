@@ -8,11 +8,11 @@ const links = [
   { name: "Home", href: "/" },
   { name: "About", href: "#about" },
   { name: "Skills", href: "#skills" },
-  { name: "Projects", href: "#projects" },
+  { name: "Projects", href: "/projects" },
   { name: "Experience", href: "#experience" },
-  { name: "Certifications", href: "#certifications" },
+  { name: "Certifications", href: "/certificates" },
   { name: "Contact", href: "#contact" },
-  { name: "Resume", href: "#resume" },
+  { name: "Resume", href: "/resume" },
 ];
 
 export default function Navbar() {
