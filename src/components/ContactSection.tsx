@@ -46,11 +46,13 @@ export default function ContactSection() {
                 <Mail size={18} /> Email Me
               </div>
             </MagneticButton>
-            <MagneticButton>
-              <div className="flex items-center gap-2">
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg> LinkedIn Profile
-              </div>
-            </MagneticButton>
+            <a href="https://www.linkedin.com/in/harshan-alagarsamy-051716214/" target="_blank" rel="noopener noreferrer">
+              <MagneticButton>
+                <div className="flex items-center gap-2">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg> LinkedIn Profile
+                </div>
+              </MagneticButton>
+            </a>
             <a href="https://github.com/harshan490" target="_blank" rel="noopener noreferrer">
               <MagneticButton>
                 <div className="flex items-center gap-2">

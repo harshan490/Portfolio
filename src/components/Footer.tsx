@@ -26,7 +26,7 @@ export default function Footer() {
               Official digital portfolio of A. Harshan. AI & Data Science Engineer building intelligent systems.
             </p>
             <div className="flex gap-4 mt-4">
-              <a href="#" className="w-12 h-12 rounded-full border border-white/10 flex items-center justify-center text-brand-silver hover:text-white hover:border-brand-papaya hover:bg-brand-papaya/10 transition-all">
+              <a href="https://www.instagram.com/nameis.harshan" target="_blank" rel="noopener noreferrer" className="w-12 h-12 rounded-full border border-white/10 flex items-center justify-center text-brand-silver hover:text-white hover:border-brand-papaya hover:bg-brand-papaya/10 transition-all">
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
               </a>
               <a href="#" className="w-12 h-12 rounded-full border border-white/10 flex items-center justify-center text-brand-silver hover:text-white hover:border-brand-papaya hover:bg-brand-papaya/10 transition-all">
