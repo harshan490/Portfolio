@@ -29,9 +29,9 @@ export default function AboutSection() {
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
               transition={{ delay: 0.5, duration: 0.8 }}
-              className="absolute -bottom-8 -right-8 glass p-6 rounded-2xl hidden md:block max-w-xs"
+              className="absolute -bottom-8 -right-8 glass-strong shadow-2xl bg-white/10 backdrop-blur-xl border border-white/20 p-6 rounded-2xl hidden md:block max-w-xs z-20"
             >
-              <p className="text-sm font-mono text-brand-silver">
+              <p className="text-sm font-mono text-white font-medium drop-shadow-sm leading-relaxed">
                 Currently pursuing B.Tech Artificial Intelligence and Data Science (2024–2028).
               </p>
             </motion.div>
